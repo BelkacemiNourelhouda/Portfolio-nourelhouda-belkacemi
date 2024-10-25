@@ -35,6 +35,8 @@ import Hireme_person2 from "./assets/images/Hero/photo2.png";
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
+
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -244,6 +246,11 @@ export const content = {
         text: "+213 561211847",
         icon: MdCall,
         link: "https://wa.me/+213 561 211 847",
+      },
+      {
+        text: "Belkacemi Nourelhouda",
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/in/nour-elhouda-belkacemi-a56910210",
       },
       {
         text: "Belkacemi Nourelhouda",
