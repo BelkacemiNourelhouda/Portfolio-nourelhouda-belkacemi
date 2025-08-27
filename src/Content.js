@@ -305,13 +305,13 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“J'ai trop aimé, c'est beau et comprensible au meme temps, ce site est parfait.”",
+          "“I really loved it, it’s beautiful and easy to understand at the same time. This site is perfect.”",
         img: avatar2,
         name: "Rayane",
       },
       {
         review:
-          "“J'ai bien aimé le site chattra.”",
+          "“I really enjoyed the website, congratulations!”",
         img: avatar1,
         name: "Prosperity school's header",
       },
