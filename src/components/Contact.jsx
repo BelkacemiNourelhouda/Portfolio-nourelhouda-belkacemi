@@ -13,14 +13,12 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'service_3cc7wx5', 'template_eubabn7', form.current, '44XKVWNAC0NUW1R7e'
       )
       .then(
         (result) => {
           console.log(result.text);
-          // Clear all input field values
           form.current.reset();
-          // Success toast message
           toast.success("Email send Successfully");
         },
         (error) => {

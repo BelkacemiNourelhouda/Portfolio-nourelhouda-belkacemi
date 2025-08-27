@@ -7,6 +7,9 @@ import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+
 import { useEffect } from "react";
 // Animation package
 import Aos from "aos";
@@ -24,6 +27,8 @@ const App = () => {
     <div className="">
       <Navbar />
       <Hero />
+      <Education /> 
+      <Experience />
       <Skills />
       <Service />
       <Projects />

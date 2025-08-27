@@ -23,8 +23,11 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
-            <button className="btn">{hero.btnText}</button>
+            <a href="#hireme" className="btn">
+              {hero.btnText}
+            </a>
           </div>
+
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
               <div
@@ -42,14 +45,14 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="md:h-[37rem] h-96">
+        {/* <div className="md:h-[37rem] h-96">
           <img
             src={hero.image}
             data-aos="slide-up"
             alt="..."
             className="h-full object-cover"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );

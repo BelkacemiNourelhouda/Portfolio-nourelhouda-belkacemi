@@ -4,7 +4,7 @@ const Hireme = () => {
   const { Hireme } = content;
 
   return (
-    <section className="bg-bg_light_primary">
+    <section id="hireme" className="bg-bg_light_primary">
       <div className="md:container px-5 pt-14">
         <h2 className="title" data-aos="fade-down">
           {Hireme.title}
@@ -14,7 +14,7 @@ const Hireme = () => {
         </h4>
         <br />
         <div className="flex items-center md:flex-row flex-col-reverse ">
-          <img
+          {/* <img
             src={Hireme.image1}
             alt="..."
             data-aos="fade-right"
@@ -25,7 +25,7 @@ const Hireme = () => {
             data-aos="fade-up"
             alt="..."
             className="max-w-sm md:hidden"
-          />
+          /> */}
           <div
             data-aos="fade-left"
             className="border-2 border-dark_primary max-w-sm
@@ -33,7 +33,14 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <button className="btn bg-dark_primary text-white">
+            <button
+              className="btn bg-dark_primary text-white"
+              onClick={() =>
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
+            >
               {Hireme.btnText}
             </button>
           </div>

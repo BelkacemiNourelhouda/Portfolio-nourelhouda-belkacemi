@@ -1,6 +1,6 @@
 // import images
-import Hero_person from "./assets/images/Hero/myphoto.png";
-
+/* import Hero_person from "./assets/images/Hero/myphoto.png";
+ */
 import figma from "./assets/images/Skills/figma.png";
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
@@ -13,23 +13,32 @@ import windows from "./assets/images/Skills/windows.png";
 import mysql from "./assets/images/Skills/mysql.png";
 import ml from "./assets/images/Skills/ml.png";
 import java from "./assets/images/Skills/java.png";
+import jasper from "./assets/images/Skills/jasper.png";
+import angular from "./assets/images/Skills/angular.png";
+import salesforce from "./assets/images/Skills/salesforce.png";
+
+import dahleb from "./assets/images/Skills/dahleb.png";
+import entv from "./assets/images/Skills/entv.png";
+import freelance from "./assets/images/Skills/freelancer.png";
+import icon from "./assets/images/Skills/icon.jpeg";
+import insfp from "./assets/images/Skills/insfp.jpg";
+import altius from "./assets/images/Skills/altius_labs_logo.jpeg";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project2 from "./assets/images/projects/img1.png";
-import project1 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img33.png";
-import project22 from "./assets/images/projects/img11.png";
-import project11 from "./assets/images/projects/img22.jpg";
-import project33 from "./assets/images/projects/img3.jpg";
-
+import project2 from "./assets/images/Projects/img1.png";
+import project1 from "./assets/images/Projects/img2.png";
+import project3 from "./assets/images/Projects/img33.png";
+import project22 from "./assets/images/Projects/img11.png";
+import project11 from "./assets/images/Projects/img22.jpg";
+import project33 from "./assets/images/Projects/img3.jpg";
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 
-import Hireme_person from "./assets/images/Hero/photo1.png";
-import Hireme_person2 from "./assets/images/Hero/photo2.png";
+/* import Hireme_person from "./assets/images/Hero/photo1.png";
+import Hireme_person2 from "./assets/images/Hero/photo2.png"; */
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -47,6 +56,14 @@ export const content = {
     {
       link: "#home",
       icon: TbSmartHome,
+    },
+    {
+      link: "#education",
+      icon: BiUser,
+    },
+    {
+      link: "#experience",
+      icon: BiUser,
     },
     {
       link: "#skills",
@@ -70,15 +87,75 @@ export const content = {
     firstName: " Nour-Elhouda",
     LastName: " Belkacemi",
     btnText: "Hire Me",
-    image: Hero_person,
+    //image: Hero_person,
     hero_content: [
       {
         count: "2+",
         text: "Years of Experience in Web development",
       },
       {
-        count: "5+",
+        count: "10+",
         text: "Projects Worked in my career",
+      },
+    ],
+  },
+  Education: {
+    title: "Education",
+    subtitle: "MY BACKGROUND",
+    education_content: [
+      {
+        review:
+          "Master 2 in Software Engineering",
+        img: dahleb,
+        name: "Saad Dahleb University, Blida",
+      },
+      {
+        review:
+          "Bachelor's degree in Computer system",
+        img: dahleb,
+        name: "Saad Dahleb University, Blida",
+      },
+      {
+        review:
+          "Introductory Certification in Graphic Design",
+        img: insfp,
+        name: "INSFP, Blida",
+      },
+    ],
+  },
+  Experience: {
+    title: "Experience",
+    subtitle: "MY EXPERIENCES",
+    experience_content: [
+      {
+        review:
+          "Full-stack Developer",
+        img: altius,
+        name: "Altius Labs",
+      },
+      {
+        review:
+          "Product Owner",
+        img: icon,
+        name: "Icon Software",
+      },
+      {
+        review:
+          "Analyst Developer",
+        img: icon,
+        name: "Icon Software",
+      },
+      {
+        review:
+          "Full-Stack Developer",
+        img: entv,
+        name: "ENTV (Nationale Television Of Algeria)",
+      },
+      {
+        review:
+          "Full-Stack Developer",
+        img: freelance,
+        name: "Freelance",
       },
     ],
   },
@@ -97,9 +174,24 @@ export const content = {
         logo: nodejs,
       },
       {
+        name: "Salesforce",
+        para: "",
+        logo: salesforce,
+      },
+      {
+        name: "Angular js",
+        para: "",
+        logo: angular,
+      },
+      {
         name: "React js",
         para: "",
         logo: reactjs,
+      },
+      {
+        name: "Java, SpringBoot",
+        para: "",
+        logo: java,
       },
       {
         name: "Python, Django",
@@ -117,11 +209,6 @@ export const content = {
         logo: ml,
       },
       {
-        name: "Java, SpringBoot",
-        para: "",
-        logo: java,
-      },
-      {
         name: "PHP, Laravel",
         para: "",
         logo: php,
@@ -130,6 +217,11 @@ export const content = {
         name: "StarUML, Bonita",
         para: "",
         logo: starUML,
+      },
+       {
+        name: "Jasper Report",
+        para: "",
+        logo: jasper,
       },
       {
         name: "Adobe Photoshop, Adobe Ilustrator",
@@ -165,7 +257,7 @@ export const content = {
         logo: services_logo2,
       },
       {
-        title: "ui / ux DESIGNING",
+        title: "ui / ux Design",
         para: "",
         logo: services_logo2,
       },
@@ -179,7 +271,7 @@ export const content = {
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
-    image: Hireme_person2,
+    //image: Hireme_person2,
     project_content: [
       {
         title: "VOD website  with a Recommender System",
@@ -228,10 +320,10 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person2,
+    //image1: Hireme_person,
+    //image2: Hireme_person2,
     para: "Software engineer with skills in programming, web development, database management, and data analysis. Passionate about new technologies and highly motivated to contribute to the development of innovative projects.",
-    btnText: "Hire Me",
+    btnText: "Contact Me",
   },
   Contact: {
     title: "Contect Me",
